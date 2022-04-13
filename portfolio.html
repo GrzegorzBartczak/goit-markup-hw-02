@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <title>Portfolio</title>
   </head>
   <body>
@@ -30,11 +34,13 @@
     </header>
     <main>
       <div class="modal-btn-menu">
-        <button class="modal-btn" type="button">Wszystkie</button>
-        <button class="modal-btn" type="button">Strony</button>
-        <button class="modal-btn" type="button">Aplikacje</button>
-        <button class="modal-btn" type="button">Dizajn</button>
-        <button class="modal-btn" type="button">Marketing</button>
+        <ul class="modal-btn-list">
+        <li class="modal-btn-list-item"><button class="modal-btn" type="button">Wszystkie</button></li>
+        <li class="modal-btn-list-item"><button class="modal-btn" type="button">Strony</button></li>
+        <li class="modal-btn-list-item"><button class="modal-btn" type="button">Aplikacje</button></li>
+        <li class="modal-btn-list-item"><button class="modal-btn" type="button">Dizajn</button></li>
+        <li class="modal-btn-list-item"><button class="modal-btn" type="button">Marketing</button></li>
+        </ul>
       </div>
       <section class="services">
         <ul class="services-image">
